@@ -1,0 +1,222 @@
+/*--KOMENTAR OZNAKA
+Name: Lejla Heganovic
+Course: CS412
+Assignment: Resume CSS
+Due Date: 09.12.2021-->*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  /*--.left {
+    border: 1px solid black;
+    height: 1500px;
+    width: 100px;
+    padding: 50px; 
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  
+  .right {
+    border: 1px solid black;
+    height: 1500px;
+    width: 900px;
+    padding: 50px; 
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  */
+
+
+  img {
+    margin-top: 40px;
+    margin-left: 5px;
+    border-radius: 40%;
+  }
+
+.main-left-box {
+    height: 1700px;
+    width: 850px;
+    padding: 50px; 
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #F0F8FF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(165,176,173,0.75);
+    display: inline-block;
+    position: relative;
+
+}
+
+
+.box-absolute{
+    position: absolute;
+    left:500px;
+    bottom: 0px;
+    top:200px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    height: 1800px;
+    width: 330px;
+    background-color:#87CEFA;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+}
+
+body{
+    background-image: url(pozadina1.jpg);
+
+}
+.d-mode{
+  background-image: url(pozadina2.jpg);
+}
+.go-top{
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #87CEFA;
+  border: 2px solid #F0F8FF;
+  border-radius: 7px;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+
+.show-top-btn{
+  opacity: 1;
+}
+.go-top:focus{
+  outline: none;
+}
+
+.go-top:hover{
+  background-color: #F0F8FF;
+}
+
+
+
+.dark-mode{
+  position: absolute;
+  bottom: 900px;
+  right: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #87CEFA;
+  border: 2px solid #F0F8FF;
+  border-radius: 7px;
+  opacity: 1;
+  transition: 0.7s;
+
+}
+
+.dark-mode:focus{
+  outline: none;
+}
+
+.dark-mode:hover{
+  background-color: #F0F8FF;
+}
+
+
+.git-hub{
+  position: absolute;
+  bottom: 750px;
+  right: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #87CEFA;
+  border: 2px solid #F0F8FF;
+  border-radius: 7px;
+  opacity: 1;
+  transition: 0.7s;
+
+}
+
+.git-hub:focus{
+  outline: none;
+}
+
+.git-hub:hover{
+  background-color: #F0F8FF;
+}
+
+.welcome-note{
+  position: absolute;
+  bottom: 800px;
+  right: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #87CEFA;
+  border: 2px solid #F0F8FF;
+  border-radius: 7px;
+  opacity: 1;
+  transition: 0.7s;
+
+}
+
+.welcome-note:focus{
+  outline: none;
+}
+
+.welcome-note:hover{
+  background-color: #F0F8FF;
+}
+
+/*.NoteBox{
+  position: absolute;
+    left:1600px;
+    bottom: 0px;
+    top:15px;
+    border: 2px solid #F0F8FF;
+    border-radius: 7px;
+    height: 200px;
+    width: 200px;
+    background-color:#87CEFA;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+
+}*/
+
+.calendar{
+  position: absolute;
+  bottom: 850px;
+  right: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #87CEFA;
+  border: 2px solid #F0F8FF;
+  border-radius: 7px;
+  opacity: 1;
+  transition: 0.7s;
+
+}
+
+.calendar:focus{
+  outline: none;
+}
+
+.calendar:hover{
+  background-color: #F0F8FF;
+}
